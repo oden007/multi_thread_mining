@@ -157,7 +157,7 @@ class Block_chain{
             transaction="decrease";
         }
             if(block.size()==0)
-        block.add(new Blockchain("Genecis_hash",cash,transaction));
+        block.add(new Blockchain("Genesis_hash",cash,transaction));
             else
         block.add(new Blockchain(block.get(block.size()-1).hash, cash,transaction));
         long startTime = System.currentTimeMillis();
